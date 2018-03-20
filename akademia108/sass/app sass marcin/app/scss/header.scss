@@ -1,0 +1,67 @@
+@import 'zmienne';
+
+#main-header {
+    height: 100vh;
+    background-image: url('../img/background.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    
+    .container {
+        width: 90%;
+        margin: 0 auto;
+        
+        .half {
+            display: inline-block;
+            width: 50%;
+            float: left;
+            
+            p {
+                margin: 0;
+                color: #FFF;
+                font-size: 40px;
+                text-transform: capitalize;
+                line-height: 60px;
+                
+                .fa {
+                    color: $zolty;
+                }
+            }
+            
+            &:nth-of-type(2) {
+                text-align: right;
+            }
+            
+            .half-inner {
+                display: inline-block;
+                width: 30%;
+                
+                .fa-phone {
+                    float: left;
+                    color: #FFF;
+                    line-height: 60px;
+                    font-size: 34px;
+                }
+                
+                p {
+                    line-height: 30px;
+                    
+                    &:first-of-type {
+                        font-size: 20px;
+                    }
+                    
+                    &:last-of-type {
+                        font-size: 22px;
+                    }
+                }
+            }
+        }
+    }
+    
+    #form {
+        position: absolute;
+        right: 5%;
+        bottom: 10%;
+    }
+}
