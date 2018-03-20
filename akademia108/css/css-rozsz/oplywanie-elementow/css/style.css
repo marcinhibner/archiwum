@@ -1,0 +1,16 @@
+img#obrazek {
+    float: left;
+}
+
+img#obrazek2 {
+    float: right;
+}
+
+img#obrazek {
+    float: none;
+}
+
+p:last-child {
+    background-color: aquamarine;
+    clear: right;
+}

@@ -1,0 +1,57 @@
+/* figure {
+    margin: 40px auto;
+    width: 100px;
+    animation-name: zmien_szerokosc;
+    animation-duration: 3s;
+    animation-iteration-count: 2;
+}
+
+figure img {
+    width: 100%;
+    transition: all 1s;
+
+}
+
+@keyframes zmien_szerokosc {
+    0%, 100% {
+        width: 400px;
+    }
+    
+    40%, 60% {
+        width: 650px;
+    }
+    
+   /* 60% {
+        width: 650px;
+    }
+    
+    100% {
+        width: 650px;
+    }
+} */
+
+@keyframes koloruj {
+    0% {
+        background-color: #fff;
+    }
+    
+    25% {
+        background-color: hotpink;
+    }
+    
+    50% {
+        background-color: maroon;
+    }
+    
+    100% {
+        background-color: #ccc;
+    }
+}
+
+body {
+    animation-name: koloruj;
+    animation-duration: 8s;
+    animation-iteration-count: 1;
+    animation-delay: 2s;
+    animation-fill-mode: forwards;
+}

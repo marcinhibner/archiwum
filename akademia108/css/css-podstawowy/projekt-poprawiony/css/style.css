@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    font-family: 'lato', sans-serif;
+}
+
+#menu {
+    background-color: black;
+    text-align: center;  
+}
+
+#menu .menu-item {
+    display: inline-block;
+    list-style: none;
+    padding: 25px;
+}
+
+#menu ul {
+  margin: 0;
+}
+
+#menu .menu-item a {
+    color: white;
+    text-decoration: none;
+}
+
+#header {
+    text-align: center;
+    position: relative;
+}
+
+#header img {
+    width: 100%;
+}
+
+#header #main-header-text {
+	position: absolute;
+    top: 50%;
+    color: white;
+    text-align: center;
+    font-size: 50px;
+    font-weight: 700;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    text-transform: uppercase;
+}
+
+#about {
+	margin: 50px;
+    padding: 30px;
+}
+#section {
+    
+}
+
